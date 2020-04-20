@@ -4,7 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -19,6 +22,9 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
     Toolbar toolbar;
     NavigationView navigationView;
     ActionBarDrawerToggle toggle;
+
+    FragmentManager fragmentManager;
+    FragmentTransaction fragmentTransaction;
 
     @SuppressLint("RestrictedApi")
     @Override
@@ -36,6 +42,9 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         //toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorWhite));
 
         navigationView.setNavigationItemSelectedListener(this);
+
+        //fragmentManager = getSupportFragmentManager();
+
     }
 
     @Override
@@ -45,7 +54,14 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
                 Toast.makeText(this, "Profile Selected", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.contact:
-                Toast.makeText(this, "Concat us Selected", Toast.LENGTH_SHORT).show();
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentManager = getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                FragmentOne fragmentOne = new FragmentOne();
+                fragmentTransaction.replace(R.id.container, fragmentOne);
+                fragmentTransaction.commit();
+
+                //Toast.makeText(this, "Concat us Selected", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.about:
                 Toast.makeText(this, "About us Selected", Toast.LENGTH_SHORT).show();

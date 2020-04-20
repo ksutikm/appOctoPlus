@@ -10,6 +10,7 @@
     tools:context=".NavigationLeft">
 
     <RelativeLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -32,5 +33,4 @@
         app:headerLayout="@layout/header"
         app:itemTextColor="@color/colorAccent"/>
 
-    
 </androidx.drawerlayout.widget.DrawerLayout>
