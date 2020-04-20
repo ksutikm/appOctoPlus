@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorkVersion</string>
+    <string name="str_enter">Войти</string>
+    <string name="str_registration">Зарегестрироваться</string>
+    <string name="str_password">Пароль</string>
+    <string name="str_login">Логин</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+</resources>
