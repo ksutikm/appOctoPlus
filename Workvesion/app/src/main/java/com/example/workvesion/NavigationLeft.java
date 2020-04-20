@@ -33,7 +33,7 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
-        toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorWhite));
+        //toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorWhite));
 
         navigationView.setNavigationItemSelectedListener(this);
     }
