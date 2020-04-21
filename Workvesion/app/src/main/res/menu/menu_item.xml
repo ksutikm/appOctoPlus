@@ -16,4 +16,36 @@
         android:id="@+id/logout"
         android:title="Logout" />
 
+    <item
+        android:id="@+id/profile1"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/contact1"
+        android:title="Contact us" />
+
+    <item
+        android:id="@+id/about1"
+        android:title="About us" />
+
+    <item
+        android:id="@+id/logout1"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/profile2"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/contact2"
+        android:title="Contact us" />
+
+    <item
+        android:id="@+id/about2"
+        android:title="About us" />
+
+    <item
+        android:id="@+id/logout2"
+        android:title="Logout" />
+
 </menu>

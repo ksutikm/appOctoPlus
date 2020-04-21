@@ -12,9 +12,12 @@ import androidx.fragment.app.FragmentTransaction;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 public class NavigationLeft extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -31,6 +34,15 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_left);
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
 
         drawerLayout = findViewById(R.id.drawer);
         toolbar = findViewById(R.id.toolbar);
@@ -49,27 +61,31 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        drawerLayout.closeDrawer(GravityCompat.START);
+        fragmentManager = getSupportFragmentManager();
+        fragmentTransaction = fragmentManager.beginTransaction();
+
         switch (item.getItemId()) {
             case R.id.profile:
-                Toast.makeText(this, "Profile Selected", Toast.LENGTH_SHORT).show();
+                FragmentAccount fragmentAccount = new FragmentAccount();
+                fragmentTransaction.replace(R.id.container,  fragmentAccount);
+                //Toast.makeText(this, "Profile Selected", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.contact:
-                drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentManager = getSupportFragmentManager();
-                fragmentTransaction = fragmentManager.beginTransaction();
                 FragmentOne fragmentOne = new FragmentOne();
                 fragmentTransaction.replace(R.id.container, fragmentOne);
-                fragmentTransaction.commit();
-
                 //Toast.makeText(this, "Concat us Selected", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.about:
-                Toast.makeText(this, "About us Selected", Toast.LENGTH_SHORT).show();
+                FragmentTwo fragmentTwo = new FragmentTwo();
+                fragmentTransaction.replace(R.id.container, fragmentTwo);
+                //Toast.makeText(this, "About us Selected", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.logout:
                 Toast.makeText(this, "Logout Selected", Toast.LENGTH_SHORT).show();
                 break;
         }
+        fragmentTransaction.commit();
         return false;
     }
 }
