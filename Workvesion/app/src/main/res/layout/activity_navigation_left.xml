@@ -43,7 +43,8 @@
         android:layout_gravity="start"
         app:menu="@menu/menu_item"
         app:headerLayout="@layout/header"
-        app:itemTextColor="@color/colorAccent"/>
+        app:itemTextColor="@color/colorAccent"
+        app:itemIconTint="@color/colorPrimary" />
 
 
 
