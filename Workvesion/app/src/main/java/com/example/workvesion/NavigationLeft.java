@@ -100,7 +100,7 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         return false;
     }
 
-    private static void unCheckAllMenuItems(Menu menu) {
+    private static void unCheckAllMenuItems(@NonNull Menu menu) {
         int size = menu.size();
         for (int i = 0; i < size; i++) {
             MenuItem item = menu.getItem(i);

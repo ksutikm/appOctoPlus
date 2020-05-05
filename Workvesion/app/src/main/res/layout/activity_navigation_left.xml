@@ -9,32 +9,39 @@
     tools:openDrawer="start"
     tools:context=".NavigationLeft">
 
-    <RelativeLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:title="OctoPlus"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"
-            android:background="@color/colorPrimary"/>
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="OctoPlus"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                android:background="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginStart="280dp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="580dp"
-            android:layout_marginBottom="16dp"
+            android:layout_margin="16dp"
             app:maxImageSize="40dp"
             app:srcCompat="@drawable/octopus" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    </RelativeLayout>
+
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
@@ -44,7 +51,9 @@
         app:menu="@menu/menu_item"
         app:headerLayout="@layout/header"
         app:itemTextColor="@color/colorAccent"
-        app:itemIconTint="@color/colorPrimary" />
+        app:itemIconTint="@color/colorPrimary" >
+
+    </com.google.android.material.navigation.NavigationView>
 
 
 
