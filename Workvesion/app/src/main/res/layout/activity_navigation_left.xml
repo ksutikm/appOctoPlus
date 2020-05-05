@@ -28,6 +28,13 @@
                 android:theme="@style/ThemeOverlay.AppCompat.Dark"
                 android:background="@color/colorPrimary"/>
 
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="70dp"
+                android:id="@+id/tututut" />
+
+
         </RelativeLayout>
 
 
@@ -39,6 +46,9 @@
             android:layout_margin="16dp"
             app:maxImageSize="40dp"
             app:srcCompat="@drawable/octopus" />
+
+
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
@@ -52,9 +62,7 @@
         app:headerLayout="@layout/header"
         app:itemTextColor="@color/colorAccent"
         app:itemIconTint="@color/colorPrimary" >
-
     </com.google.android.material.navigation.NavigationView>
-
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
