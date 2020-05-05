@@ -3,74 +3,84 @@
 
     <item android:title="Студентам">
         <menu>
-            <item
-                android:id="@+id/nav_money"
-                android:icon="@drawable/ic_menu_money"
-                android:title="Финансы" />
-            <item
-                android:id="@+id/nav_education"
-                android:icon="@drawable/ic_menu_education"
-                android:title="Обучение" />
-            <item
-                android:id="@+id/nav_academ"
-                android:icon="@drawable/ic_menu_academ"
-                android:title="Академический отпуск" />
-            <item
-                android:id="@+id/nav_progress"
-                android:icon="@drawable/ic_menu_progress"
-                android:title="Достижения и плюшки" />
+            <group
+                android:checkableBehavior="single"
+                android:id="@+id/menu_start">
+
+                <item
+                    android:id="@+id/nav_money"
+                    android:icon="@drawable/ic_menu_money"
+                    android:title="Финансы" />
+                <item
+                    android:id="@+id/nav_education"
+                    android:icon="@drawable/ic_menu_education"
+                    android:title="Обучение" />
+                <item
+                    android:id="@+id/nav_academ"
+                    android:icon="@drawable/ic_menu_academ"
+                    android:title="Академический отпуск" />
+                <item
+                    android:id="@+id/nav_progress"
+                    android:icon="@drawable/ic_menu_progress"
+                    android:title="Достижения" />
+            </group>
         </menu>
     </item>
 
     <item android:title="Абитуриентам">
         <menu>
-            <item
-                android:id="@+id/nav_entrance"
-                android:icon="@drawable/ic_menu_entrance"
-                android:title="Поступление" />
-            <item
-                android:id="@+id/nav_balls"
-                android:icon="@drawable/ic_menu_mood"
-                android:title="Баллы" />
-            <item
-                android:id="@+id/nav_not_balls"
-                android:icon="@drawable/ic_menu_mood_bad"
-                android:title="Нехватка баллов" />
-            <item
-                android:id="@+id/nav_dormitory"
-                android:icon="@drawable/ic_menu_home"
-                android:title="Общежитие" />
-            <item
-                android:id="@+id/nav_useful"
-                android:icon="@drawable/ic_menu_attachment"
-                android:title="Полезное" />
+            <group
+                android:checkableBehavior="single"
+                android:id="@+id/menu_middle">
+
+                <item
+                    android:id="@+id/nav_entrance"
+                    android:icon="@drawable/ic_menu_entrance"
+                    android:title="Поступление" />
+                <item
+                    android:id="@+id/nav_balls"
+                    android:icon="@drawable/ic_menu_equalizer"
+                    android:title="Баллы" />
+                <item
+                    android:id="@+id/nav_dormitory"
+                    android:icon="@drawable/ic_menu_home"
+                    android:title="Общежитие" />
+                <item
+                    android:id="@+id/nav_useful"
+                    android:icon="@drawable/ic_menu_attachment"
+                    android:title="Полезное" />
+            </group>
         </menu>
     </item>
 
     <item android:title="Информация">
         <menu>
-            <item
-                android:id="@+id/profile"
-                android:icon="@drawable/ic_menu_person"
-                android:title="Аккаунт" />
+            <group
+                android:checkableBehavior="single"
+                android:id="@+id/menu_end">
 
-            <item
-                android:id="@+id/contact"
-                android:icon="@drawable/ic_menu_headset"
-                android:title="Связаться с нами" />
 
-            <item
-                android:id="@+id/about"
-                android:icon="@drawable/ic_menu_group"
-                android:title="О нас" />
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_menu_person"
+                    android:title="Аккаунт" />
 
-            <item
-                android:id="@+id/logout"
-                android:icon="@drawable/ic_menu_exit"
-                android:title="Выход" />
+                <item
+                    android:id="@+id/contact"
+                    android:icon="@drawable/ic_menu_headset"
+                    android:title="Связаться с нами" />
+
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_menu_group"
+                    android:title="О нас" />
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_menu_exit"
+                    android:title="Выход" />
+            </group>
         </menu>
     </item>
-
-
 
 </menu>
