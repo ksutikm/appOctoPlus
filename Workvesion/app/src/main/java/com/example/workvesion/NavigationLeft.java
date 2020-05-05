@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -96,8 +97,34 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
             case R.id.nav_academ:
                 FragmentAcadem fragmentAcadem = new FragmentAcadem();
                 fragmentTransaction.replace(R.id.container, fragmentAcadem);
-//                FragmentThree fragmentThree = new FragmentThree();
-//                fragmentTransaction.add(R.id.tututut, fragmentThree);
+                break;
+            case R.id.nav_money:
+                FragmentMoney fragmentMoney = new FragmentMoney();
+                fragmentTransaction.replace(R.id.container, fragmentMoney);
+                break;
+            case R.id.nav_education:
+                FragmentEducation fragmentEducation = new FragmentEducation();
+                fragmentTransaction.replace(R.id.container, fragmentEducation);
+                break;
+            case R.id.nav_progress:
+                FragmentProgress fragmentProgress = new FragmentProgress();
+                fragmentTransaction.replace(R.id.container, fragmentProgress);
+                break;
+            case R.id.nav_entrance:
+                FragmentEntrance fragmentEntrance = new FragmentEntrance();
+                fragmentTransaction.replace(R.id.container, fragmentEntrance);
+                break;
+            case R.id.nav_equalizer:
+                FragmentEqualize fragmentEqualize = new FragmentEqualize();
+                fragmentTransaction.replace(R.id.container, fragmentEqualize);
+                break;
+            case R.id.nav_home:
+                FragmentHome fragmentHome = new FragmentHome();
+                fragmentTransaction.replace(R.id.container, fragmentHome);
+                break;
+            case R.id.nav_attachment:
+                FragmentAttachment fragmentAttachment = new FragmentAttachment();
+                fragmentTransaction.replace(R.id.container, fragmentAttachment);
                 break;
         }
 

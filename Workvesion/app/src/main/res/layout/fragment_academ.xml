@@ -7,12 +7,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-<!--    <ScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        tools:layout_editor_absoluteY="0dp">-->
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -36,31 +30,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/text_academ"
-                    android:layout_below="@id/academ"
                     android:lineSpacingExtra="5sp"
                     android:padding="10dp"
                     android:text="@string/text_academ"/>
 
             </ScrollView>
 
-
-
-
-
         </RelativeLayout>
 
-
-<!--    </ScrollView>-->
-
-
-    <!--    <TextView-->
-<!--        android:id="@+id/text_fragment_two"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Fragment Academ"-->
-<!--        android:textSize="30sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

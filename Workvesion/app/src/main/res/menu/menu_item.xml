@@ -38,15 +38,15 @@
                     android:icon="@drawable/ic_menu_entrance"
                     android:title="Поступление" />
                 <item
-                    android:id="@+id/nav_balls"
+                    android:id="@+id/nav_equalizer"
                     android:icon="@drawable/ic_menu_equalizer"
                     android:title="Баллы" />
                 <item
-                    android:id="@+id/nav_dormitory"
+                    android:id="@+id/nav_home"
                     android:icon="@drawable/ic_menu_home"
                     android:title="Общежитие" />
                 <item
-                    android:id="@+id/nav_useful"
+                    android:id="@+id/nav_attachment"
                     android:icon="@drawable/ic_menu_attachment"
                     android:title="Полезное" />
             </group>
