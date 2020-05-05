@@ -25,6 +25,7 @@ public class FragmentMoney extends Fragment implements View.OnClickListener{
         TextView tv_money_e = view.findViewById(R.id.money_e);
         TextView tv_money_f = view.findViewById(R.id.money_f);
         TextView tv_money_g = view.findViewById(R.id.money_g);
+        TextView tv_mat_help = view.findViewById(R.id.mat_help);
         tv_money_b.setOnClickListener(this);
         tv_money_a.setOnClickListener(this);
         tv_money_c.setOnClickListener(this);
@@ -32,6 +33,7 @@ public class FragmentMoney extends Fragment implements View.OnClickListener{
         tv_money_e.setOnClickListener(this);
         tv_money_f.setOnClickListener(this);
         tv_money_g.setOnClickListener(this);
+        tv_mat_help.setOnClickListener(this);
 
 
 
@@ -62,6 +64,9 @@ public class FragmentMoney extends Fragment implements View.OnClickListener{
                 break;
             case R.id.money_g:
                 startActivity(new Intent(getActivity(), MoneyG.class));
+                break;
+            case R.id.mat_help:
+                startActivity(new Intent(getActivity(), MatHelp.class));
                 break;
         }
     }

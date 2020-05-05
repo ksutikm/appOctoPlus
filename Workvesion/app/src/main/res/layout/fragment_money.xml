@@ -41,17 +41,6 @@
                 android:textColor="@color/colorPrimary"
                 android:padding="10dp"/>
 
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:id="@+id/money_text"-->
-<!--                android:layout_below="@id/pgas"-->
-<!--                android:lineSpacingExtra="5sp"-->
-<!--                android:padding="10dp"-->
-<!--                android:text="@string/text_pgas"-->
-<!--                android:autoLink="web"-->
-<!--                android:linksClickable="true" />-->
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -102,10 +91,17 @@
                 android:textColor="@color/colorPrimary"
                 android:padding="10dp"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mat_help"
+                android:layout_below="@id/money_g"
+                android:text="@string/tv_mat_help"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:padding="10dp"/>
+
         </RelativeLayout>
-
-
-
 
     </ScrollView>
 
