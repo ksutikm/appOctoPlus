@@ -11,10 +11,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -56,6 +58,8 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         //toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorWhite));
 
         navigationView.setNavigationItemSelectedListener(this);
+
+
 
         //fragmentManager = getSupportFragmentManager();
 
