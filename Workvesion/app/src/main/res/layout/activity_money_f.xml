@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MoneyB">
+    tools:context=".MoneyC">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -15,11 +15,11 @@
         tools:ignore="MissingConstraints">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar1"
+            android:id="@+id/toolbar6"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="ПГАС"
+            app:title="Стипендия"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -36,10 +36,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/money_text_b"
+                android:id="@+id/money_text_f"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/text_pgas"
+                android:text="@string/money_text_f"
                 android:autoLink="web"
                 android:linksClickable="true" />
 

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MoneyB"></activity>
+        <activity android:name=".MoneyG"></activity>
+        <activity android:name=".MoneyF" />
+        <activity android:name=".MoneyE" />
+        <activity android:name=".MoneyD" />
+        <activity android:name=".MoneyC" />
+        <activity android:name=".MoneyA" />
+        <activity android:name=".MoneyB" />
         <activity android:name=".NavigationLeft" />
         <activity android:name=".MainActivity">
             <intent-filter>
