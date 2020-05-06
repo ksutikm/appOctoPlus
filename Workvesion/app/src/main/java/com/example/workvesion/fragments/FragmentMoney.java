@@ -21,14 +21,11 @@ public class FragmentMoney extends Fragment implements View.OnClickListener{
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_money, container, false);
 
-
         TextView tv_mat_help = view.findViewById(R.id.mat_help);
         TextView tv_money = view.findViewById(R.id.tv_money);
 
         tv_mat_help.setOnClickListener(this);
         tv_money.setOnClickListener(this);
-
-
 
         return view;
     }
