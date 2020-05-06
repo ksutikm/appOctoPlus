@@ -314,5 +314,12 @@ n\n\
 \n\n
 <b>ВАЖНО:</b> материальная помощь <b>НЕ ВЫПЛАЧИВАЕТСЯ</b> студентам, находящимся в <b>АКАДЕМИЧЕСКОМ ОТПУСКЕ.</b> Исключения составляют лица, ушедшие в отпуск по медицинским показаниям, вследствие беременности и родов, для ухода за ребенком в возрасте до 3х лет.\n\n\n </string>
 
+    <string name="special_opportunity"><b>Особые возможности</b></string>
+    <string name="transfer"><b>Перевод</b></string>
+    <string name="attestation"><b>Аттестация</b></string>
+    <string name="questions"><b>Вопросы отчисления и восстановления</b></string>
+    <string name="tuition_fees"><b>Оплата обучения</b></string>
+    <string name="organization_of_practice"><b>Организация практики</b></string>
+
 
 </resources>

@@ -96,7 +96,8 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
                 fragmentTransaction.replace(R.id.container, fragmentTwo);
                 break;
             case R.id.logout:
-                Toast.makeText(this, "Logout Selected", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Logout Selected", Toast.LENGTH_SHORT).show();
+                onBackPressed();
                 break;
             case R.id.nav_academ:
                 FragmentAcadem fragmentAcadem = new FragmentAcadem();
