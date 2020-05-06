@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".education.OrganizationOfPractice">
+    tools:context=".education.QuestionA">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -13,11 +13,11 @@
         tools:ignore="MissingConstraints">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar24"
+            android:id="@+id/toolbar22"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Организация практики"
+            app:title="Отчисление"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/text_organization_of_practice"
+                android:text="@string/text_question_a"
                 android:autoLink="web"
                 android:linksClickable="true" />
 

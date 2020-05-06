@@ -7,16 +7,15 @@ import android.os.Bundle;
 
 import com.example.workvesion.R;
 
-public class TuitionFees extends AppCompatActivity {
+public class TransferA extends AppCompatActivity {
 
     Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tuition_fees);
-        toolbar = findViewById(R.id.toolbar25);
-        setSupportActionBar(toolbar);
+        setContentView(R.layout.activity_transfer_a);
+        toolbar = findViewById(R.id.toolbar15);setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }

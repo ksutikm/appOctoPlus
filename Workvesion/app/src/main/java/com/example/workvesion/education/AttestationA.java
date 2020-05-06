@@ -10,24 +10,24 @@ import android.widget.TextView;
 
 import com.example.workvesion.R;
 
-public class Questions extends AppCompatActivity implements View.OnClickListener{
+public class AttestationA extends AppCompatActivity implements View.OnClickListener{
 
     Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_questions);
-        toolbar = findViewById(R.id.toolbar21);
+        setContentView(R.layout.activity_attestation_a);
+        toolbar = findViewById(R.id.toolbar18);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        TextView tv_question_a = findViewById(R.id.question_a);
-        TextView tv_question_b = findViewById(R.id.question_b);
+        TextView tv_attestation_a_a = findViewById(R.id.attestation_a_a);
+        TextView tv_attestation_a_b = findViewById(R.id.attestation_a_b);
 
-        tv_question_a.setOnClickListener(this);
-        tv_question_b.setOnClickListener(this);
+        tv_attestation_a_a.setOnClickListener(this);
+        tv_attestation_a_b.setOnClickListener(this);
     }
 
     @Override
@@ -39,11 +39,11 @@ public class Questions extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.question_a:
-                startActivity(new Intent(this, QuestionA.class));
+            case R.id.attestation_a_a:
+                startActivity(new Intent(this, AttestationAA.class));
                 break;
-            case R.id.question_b:
-                startActivity(new Intent(this, QuestionB.class));
+            case R.id.attestation_a_b:
+                startActivity(new Intent(this, AttestationAB.class));
                 break;
         }
     }

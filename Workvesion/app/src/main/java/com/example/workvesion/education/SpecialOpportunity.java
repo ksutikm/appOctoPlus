@@ -18,28 +18,18 @@ public class SpecialOpportunity extends AppCompatActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_special_opportunity);
-//        toolbar = findViewById(R.id.toolbar9);
-//        setSupportActionBar(toolbar);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar = findViewById(R.id.toolbar10);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        TextView tv_s_o_a = findViewById(R.id.s_o_a);
+        TextView tv_s_o_b = findViewById(R.id.s_o_b);
+        TextView tv_s_o_c = findViewById(R.id.s_o_c);
 
-
-//        TextView tv_money_a = findViewById(R.id.money_a);
-//        TextView tv_money_b = findViewById(R.id.pgas);
-//        TextView tv_money_c = findViewById(R.id.money_c);
-//        TextView tv_money_d = findViewById(R.id.money_d);
-//        TextView tv_money_e = findViewById(R.id.money_e);
-//        TextView tv_money_f = findViewById(R.id.money_f);
-//        TextView tv_money_g = findViewById(R.id.money_g);
-//
-//        tv_money_b.setOnClickListener(this);
-//        tv_money_a.setOnClickListener(this);
-//        tv_money_c.setOnClickListener(this);
-//        tv_money_d.setOnClickListener(this);
-//        tv_money_e.setOnClickListener(this);
-//        tv_money_f.setOnClickListener(this);
-//        tv_money_g.setOnClickListener(this);
+        tv_s_o_a.setOnClickListener(this);
+        tv_s_o_b.setOnClickListener(this);
+        tv_s_o_c.setOnClickListener(this);
     }
 
     @Override
@@ -51,27 +41,15 @@ public class SpecialOpportunity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-//            case R.id.pgas:
-//                startActivity(new Intent(this, MoneyB.class));
-//                break;
-//            case R.id.money_a:
-//                startActivity(new Intent(this, MoneyA.class));
-//                break;
-//            case R.id.money_c:
-//                startActivity(new Intent(this, MoneyC.class));
-//                break;
-//            case R.id.money_d:
-//                startActivity(new Intent(this, MoneyD.class));
-//                break;
-//            case R.id.money_e:
-//                startActivity(new Intent(this, MoneyE.class));
-//                break;
-//            case R.id.money_f:
-//                startActivity(new Intent(this, MoneyF.class));
-//                break;
-//            case R.id.money_g:
-//                startActivity(new Intent(this, MoneyG.class));
-//                break;
+            case R.id.s_o_a:
+                startActivity(new Intent(this, SOA.class));
+                break;
+            case R.id.s_o_b:
+                startActivity(new Intent(this, SOB.class));
+                break;
+            case R.id.s_o_c:
+                startActivity(new Intent(this, SOC.class));
+                break;
         }
     }
 }

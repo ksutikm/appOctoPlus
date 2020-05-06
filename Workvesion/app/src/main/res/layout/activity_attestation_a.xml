@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    tools:context=".education.AttestationA">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -13,11 +13,11 @@
         tools:ignore="MissingConstraints">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar10"
+            android:id="@+id/toolbar18"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Особые возможности"
+            app:title="Итоговая Аттестация"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -34,8 +34,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/s_o_a"
-                android:text="@string/s_o_a"
+                android:id="@+id/attestation_a_a"
+                android:text="@string/attestation_a_a"
                 android:textSize="15sp"
                 android:textColor="@color/colorPrimary"
                 android:layout_marginTop="15dp"
@@ -50,26 +50,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/s_o_b"
-                android:layout_below="@id/s_o_a"
-                android:text="@string/s_o_b"
-                android:textSize="15sp"
-                android:textColor="@color/colorPrimary"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginStart="15dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginEnd="15dp"
-                android:background="@color/colorGrey"
-                android:padding="10dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/s_o_c"
-                android:layout_below="@id/s_o_b"
-                android:text="@string/s_o_c"
+                android:id="@+id/attestation_a_b"
+                android:layout_below="@id/attestation_a_a"
+                android:text="@string/attestation_a_b"
                 android:textSize="15sp"
                 android:textColor="@color/colorPrimary"
                 android:layout_marginTop="5dp"
@@ -84,7 +67,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/s_o_c"
+                android:layout_below="@id/attestation_a_b"
                 android:text="@string/new_line"/>
 
         </RelativeLayout>

@@ -322,4 +322,36 @@ n\n\
     <string name="organization_of_practice"><b>Организация практики</b></string>
 
 
+    <string name="s_o_a"><b>Ускоренное обучение</b></string>
+    <string name="s_o_b"><b>Индивидуальный план</b></string>
+    <string name="s_o_c"><b>Обучение лиц с ОВЗ</b></string>
+
+    <string name="text_s_o_a"></string>
+    <string name="text_s_o_b"></string>
+    <string name="text_s_o_c"></string>
+
+    <string name="transfer_a"><b>С платной основы на бесплатную</b></string>
+    <string name="transfer_b"><b>С факультета на факультет</b></string>
+
+    <string name="text_transfer_a"></string>
+    <string name="text_transfer_b"></string>
+
+    <string name="attestation_a"><b>Итоговая</b></string>
+    <string name="attestation_a_a"><b>Получение диплома</b></string>
+    <string name="text_attestation_a_a"></string>
+    <string name="attestation_a_b"><b>Получение диплома при дистанционном обучении</b></string>
+    <string name="text_attestation_a_b"></string>
+    <string name="attestation_b"><b>Промежуточная</b></string>
+    <string name="text_attestation_b"></string>
+
+    <string name="question_a"><b>Отчисление</b></string>
+    <string name="question_b"><b>Восстановление</b></string>
+
+    <string name="text_question_a"></string>
+    <string name="text_question_b"></string>
+
+    <string name="text_tuition_fees"></string>
+    <string name="text_organization_of_practice"></string>
+
+
 </resources>
