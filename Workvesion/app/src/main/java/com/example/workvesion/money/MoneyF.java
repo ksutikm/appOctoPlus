@@ -1,19 +1,21 @@
-package com.example.workvesion;
+package com.example.workvesion.money;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
-public class MoneyE extends AppCompatActivity {
+import com.example.workvesion.R;
+
+public class MoneyF extends AppCompatActivity {
 
     Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_money_e);
-        toolbar = findViewById(R.id.toolbar5);
+        setContentView(R.layout.activity_money_f);
+        toolbar = findViewById(R.id.toolbar6);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);

@@ -1,9 +1,11 @@
-package com.example.workvesion;
+package com.example.workvesion.money;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+
+import com.example.workvesion.R;
 
 public class MoneyC extends AppCompatActivity {
     Toolbar toolbar;

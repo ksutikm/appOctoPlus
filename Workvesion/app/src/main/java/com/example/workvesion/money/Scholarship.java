@@ -1,4 +1,4 @@
-package com.example.workvesion;
+package com.example.workvesion.money;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -7,6 +7,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.workvesion.R;
+import com.example.workvesion.money.MoneyA;
+import com.example.workvesion.money.MoneyB;
+import com.example.workvesion.money.MoneyC;
+import com.example.workvesion.money.MoneyD;
+import com.example.workvesion.money.MoneyE;
+import com.example.workvesion.money.MoneyF;
+import com.example.workvesion.money.MoneyG;
 
 public class Scholarship extends AppCompatActivity implements View.OnClickListener {
 
