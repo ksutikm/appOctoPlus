@@ -21,7 +21,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorWhite"
-        android:text="t.me/telOctoPlus_bot" />
+        android:text="t.me/telOctoPlus_bot"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textColorLink="@color/colorWhite"/>
 
 </LinearLayout>

@@ -65,9 +65,26 @@
                 android:padding="10dp"/>
 
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/transfer_c"
+                android:layout_below="@id/transfer_b"
+                android:text="@string/transfer_c"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorGrey"
+                android:padding="10dp"/>
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/transfer_b"
+                android:layout_below="@id/transfer_c"
                 android:text="@string/new_line"/>
 
         </RelativeLayout>

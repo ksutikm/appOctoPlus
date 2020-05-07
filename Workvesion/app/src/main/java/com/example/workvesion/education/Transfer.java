@@ -25,9 +25,11 @@ public class Transfer extends AppCompatActivity implements View.OnClickListener 
 
         TextView tv_transfer_a = findViewById(R.id.transfer_a);
         TextView tv_transfer_b = findViewById(R.id.transfer_b);
+        TextView tv_transfer_c = findViewById(R.id.transfer_c);
 
         tv_transfer_a.setOnClickListener(this);
         tv_transfer_b.setOnClickListener(this);
+        tv_transfer_c.setOnClickListener(this);
     }
 
     @Override
@@ -44,6 +46,9 @@ public class Transfer extends AppCompatActivity implements View.OnClickListener 
                 break;
             case R.id.transfer_b:
                 startActivity(new Intent(this, TransferB.class));
+                break;
+            case R.id.transfer_c:
+                startActivity(new Intent(this, TransferC.class));
                 break;
         }
     }

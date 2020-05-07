@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".education.QuestionB"></activity>
+        <activity android:name=".education.TransferC"></activity>
+        <activity android:name=".education.QuestionB" />
         <activity android:name=".education.QuestionA" />
         <activity android:name=".education.AttestationAB" />
         <activity android:name=".education.AttestationAA" />
