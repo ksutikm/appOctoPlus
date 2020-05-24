@@ -23,6 +23,7 @@ import com.example.workvesion.fragments.FragmentEntrance;
 import com.example.workvesion.fragments.FragmentEqualize;
 import com.example.workvesion.fragments.FragmentHome;
 import com.example.workvesion.fragments.FragmentMoney;
+import com.example.workvesion.fragments.FragmentOctopus;
 import com.example.workvesion.fragments.FragmentOne;
 import com.example.workvesion.fragments.FragmentProgress;
 import com.example.workvesion.fragments.FragmentTwo;
@@ -39,6 +40,7 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
 
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
+    FragmentOctopus fragmentOctopus;
 
     @SuppressLint("RestrictedApi")
     @Override
@@ -66,6 +68,11 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
 
         navigationView.setNavigationItemSelectedListener(this);
 
+        fragmentManager = getSupportFragmentManager();
+        fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentOctopus = new FragmentOctopus();
+        fragmentTransaction.replace(R.id.container, fragmentOctopus);
+        fragmentTransaction.commit();
 
 
         //fragmentManager = getSupportFragmentManager();
