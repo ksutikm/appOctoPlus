@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".money.MoneyA">
+    tools:context=".money.MoneyA"
+    android:background="@drawable/bub_2" >
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
