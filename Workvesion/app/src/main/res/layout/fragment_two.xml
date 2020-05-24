@@ -6,14 +6,144 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text_fragment_two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragment Two"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:id="@+id/hudya"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hudya"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_1"
+                android:layout_below="@id/hudya"
+                android:gravity="center"
+                android:text="@string/about_text_1"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/hokan"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_below="@id/text_1"
+                android:layout_marginTop="45dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/hokan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_2"
+                android:layout_below="@id/hokan"
+                android:gravity="center"
+                android:text="@string/about_text_2"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/ksenya"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_below="@id/text_2"
+                android:layout_marginTop="45dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/ksenya" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_3"
+                android:layout_below="@id/ksenya"
+                android:gravity="center"
+                android:text="@string/about_text_3"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/vs_lok"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_below="@id/text_3"
+                android:layout_marginTop="45dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/vs_lok" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_4"
+                android:layout_below="@id/vs_lok"
+                android:gravity="center"
+                android:text="@string/about_text_4"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/kropanova"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_below="@id/text_4"
+                android:layout_marginTop="45dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/kropanova" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_5"
+                android:layout_below="@id/kropanova"
+                android:gravity="center"
+                android:text="@string/about_text_5"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/kustova"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_below="@id/text_5"
+                android:layout_marginTop="45dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/kustova" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_6"
+                android:layout_below="@id/kustova"
+                android:gravity="center"
+                android:text="@string/about_text_6"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/danya"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_below="@id/text_6"
+                android:layout_marginTop="45dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/danaya" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_7"
+                android:layout_below="@id/danya"
+                android:gravity="center"
+                android:text="@string/about_text_7"
+                android:textSize="23sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

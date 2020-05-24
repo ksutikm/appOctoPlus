@@ -10,6 +10,9 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
+import android.content.ClipData;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -52,8 +55,10 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                startActivity(new
+                        Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/telOctoPlus_bot")));
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
             }
         });
 
@@ -73,7 +78,6 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         fragmentOctopus = new FragmentOctopus();
         fragmentTransaction.replace(R.id.container, fragmentOctopus);
         fragmentTransaction.commit();
-
 
         //fragmentManager = getSupportFragmentManager();
 
@@ -102,8 +106,7 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
                 fragmentTransaction.replace(R.id.container, fragmentAccount);
                 break;
             case R.id.contact:
-                FragmentOne fragmentOne = new FragmentOne();
-                fragmentTransaction.replace(R.id.container, fragmentOne);
+                fragmentTransaction.replace(R.id.container, fragmentOctopus);
                 break;
             case R.id.about:
                 FragmentTwo fragmentTwo = new FragmentTwo();

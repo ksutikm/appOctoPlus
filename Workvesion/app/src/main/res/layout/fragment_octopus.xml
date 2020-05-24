@@ -12,7 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="350dp"
             android:id="@+id/cloud"
-            android:src="@drawable/cloud"
+            android:src="@drawable/oooo"
             android:contentDescription="TODO" />
 
         <ImageView
