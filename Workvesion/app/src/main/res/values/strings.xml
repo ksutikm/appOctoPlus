@@ -678,4 +678,73 @@ n\n\
     <string name="about_text_6"><b>Дизайнер</b>\nКустова А.А.</string>
     <string name="about_text_7"><b>Тестировщик</b>\nИванов Д.А.</string>
 
+    <string name="text_entrance"><b>Подача документов</b></string>
+
+    <string name="documents"><b>Документы</b></string>
+    <string name="documents_text_1"><b>Документы для конкурсной основы</b></string>
+    <string name="documents_text_2"><b>Целевое обучение</b></string>
+
+    <string name="documents_text_1_1">documents_text_1_1</string>
+    <string name="documents_text_1_2">documents_text_1_2</string>
+
+    <string name="deadlines"><b>Сроки подачи</b></string>
+    <string name="deadlines_text">deadlines_text</string>
+
+    <string name="ways"><b>Способы подачи</b></string>
+    <string name="ways_text">ways_text</string>
+
+    <string name="counts_places"><b>Количество мест и стоимость</b></string>
+    <string name="counts_places_text">counts_places_text</string>
+
+    <string name="balls"><b>Баллы</b></string>
+    <string name="balls_a"><b>Минимальные баллы</b></string>
+    <string name="balls_b"><b>Проходные баллы</b></string>
+    <string name="balls_c"><b>Дополнительные баллы (учет индивидуальных достижений)</b></string>
+
+    <string name="balls_text_a"></string>
+    <string name="balls_text_b"></string>
+    <string name="balls_text_c"></string>
+
+    <string name="no_balls"><b>Что делать, если не хватает баллов</b></string>
+    <string name="no_balls_a"><b>Пересдача ЕГЭ</b></string>
+    <string name="no_balls_text_a"></string>
+
+    <string name="no_balls_b"><b>Вступительные испытания</b></string>
+    <string name="no_balls_1"><b>Формы</b></string>
+    <string name="no_balls_2"><b>Перечень</b></string>
+    <string name="no_balls_3"><b>Программы</b></string>
+    <string name="no_balls_4"><b>Особенности проведения для лиц с ОВЗ</b></string>
+    <string name="no_balls_5"><b>Правила подачи аппеляции</b></string>
+
+    <string name="no_balls_text_1"></string>
+    <string name="no_balls_text_2"></string>
+    <string name="no_balls_text_3"></string>
+    <string name="no_balls_text_4"></string>
+    <string name="no_balls_text_5"></string>
+
+    <string name="dormitory"><b>Общежитие</b></string>
+    <string name="dormitory_a"><b>Правила заселени</b></string>
+    <string name="dormitory_b"><b>Правила проживания</b></string>
+    <string name="dormitory_c"><b>Правила оплаты</b></string>
+
+    <string name="dormitory_text_a"></string>
+    <string name="dormitory_text_b"></string>
+    <string name="dormitory_text_c"></string>
+
+    <string name="useful_a"><b>Дни открытых дверей</b></string>
+    <string name="useful_b"><b>Олимпиады</b></string>
+    <string name="useful_d"><b>Полезные ссылки</b></string>
+
+    <string name="useful_text_a"></string>
+    <string name="useful_text_b"></string>
+    <string name="useful_text_d"></string>
+
+    <string name="useful_c"><b>Подготовка к ЕГЭ</b></string>
+    <string name="useful_c_1"><b>Воскресные лектории</b></string>
+    <string name="useful_c_2"><b>Подготовительные курсы</b></string>
+
+    <string name="useful_text_c_1"></string>
+    <string name="useful_text_c_2"></string>
+
+
 </resources>
