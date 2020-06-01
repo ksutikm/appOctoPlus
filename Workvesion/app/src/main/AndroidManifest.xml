@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".entrance.DocumentsB"></activity>
+        <activity android:name=".balls.NoBallsB"></activity>
+        <activity android:name=".balls.NoBallsA" />
+        <activity android:name=".balls.NoBalls" />
+        <activity android:name=".balls.BallsC" />
+        <activity android:name=".balls.BallsB" />
+        <activity android:name=".balls.BallsA" />
+        <activity android:name=".balls.Balls" />
+        <activity android:name=".entrance.DocumentsB" />
         <activity android:name=".entrance.DocumentsA" />
         <activity android:name=".entrance.CountsPlaces" />
         <activity android:name=".entrance.Ways" />

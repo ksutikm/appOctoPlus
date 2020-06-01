@@ -26,9 +26,6 @@ public class FragmentEntrance extends Fragment implements View.OnClickListener{
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_entrance, container, false);
 
-        TextView tv_mat_help = view.findViewById(R.id.mat_help);
-        TextView tv_money = view.findViewById(R.id.tv_money);
-
         TextView tv_documents = view.findViewById(R.id.tv_documents);
         TextView tv_deadlines = view.findViewById(R.id.tv_deadlines);
         TextView tv_ways = view.findViewById(R.id.tv_ways);

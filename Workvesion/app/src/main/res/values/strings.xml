@@ -701,9 +701,9 @@ n\n\
     <string name="balls_b"><b>Проходные баллы</b></string>
     <string name="balls_c"><b>Дополнительные баллы (учет индивидуальных достижений)</b></string>
 
-    <string name="balls_text_a"></string>
-    <string name="balls_text_b"></string>
-    <string name="balls_text_c"></string>
+    <string name="balls_text_a">balls_text_a</string>
+    <string name="balls_text_b">balls_text_b</string>
+    <string name="balls_text_c">balls_text_c</string>
 
     <string name="no_balls"><b>Что делать, если не хватает баллов</b></string>
     <string name="no_balls_a"><b>Пересдача ЕГЭ</b></string>
@@ -716,35 +716,35 @@ n\n\
     <string name="no_balls_4"><b>Особенности проведения для лиц с ОВЗ</b></string>
     <string name="no_balls_5"><b>Правила подачи аппеляции</b></string>
 
-    <string name="no_balls_text_1"></string>
-    <string name="no_balls_text_2"></string>
-    <string name="no_balls_text_3"></string>
-    <string name="no_balls_text_4"></string>
-    <string name="no_balls_text_5"></string>
+    <string name="no_balls_text_1">no_balls_text_1</string>
+    <string name="no_balls_text_2">no_balls_text_2</string>
+    <string name="no_balls_text_3">no_balls_text_3</string>
+    <string name="no_balls_text_4">no_balls_text_4</string>
+    <string name="no_balls_text_5">no_balls_text_5</string>
 
     <string name="dormitory"><b>Общежитие</b></string>
     <string name="dormitory_a"><b>Правила заселени</b></string>
     <string name="dormitory_b"><b>Правила проживания</b></string>
     <string name="dormitory_c"><b>Правила оплаты</b></string>
 
-    <string name="dormitory_text_a"></string>
-    <string name="dormitory_text_b"></string>
-    <string name="dormitory_text_c"></string>
+    <string name="dormitory_text_a">dormitory_text_a</string>
+    <string name="dormitory_text_b">dormitory_text_b</string>
+    <string name="dormitory_text_c">dormitory_text_c</string>
 
     <string name="useful_a"><b>Дни открытых дверей</b></string>
     <string name="useful_b"><b>Олимпиады</b></string>
     <string name="useful_d"><b>Полезные ссылки</b></string>
 
-    <string name="useful_text_a"></string>
-    <string name="useful_text_b"></string>
-    <string name="useful_text_d"></string>
+    <string name="useful_text_a">useful_text_a</string>
+    <string name="useful_text_b">useful_text_b</string>
+    <string name="useful_text_d">useful_text_d</string>
 
     <string name="useful_c"><b>Подготовка к ЕГЭ</b></string>
     <string name="useful_c_1"><b>Воскресные лектории</b></string>
     <string name="useful_c_2"><b>Подготовительные курсы</b></string>
 
-    <string name="useful_text_c_1"></string>
-    <string name="useful_text_c_2"></string>
+    <string name="useful_text_c_1">useful_text_c_1</string>
+    <string name="useful_text_c_2">useful_text_c_2</string>
 
 
 </resources>
