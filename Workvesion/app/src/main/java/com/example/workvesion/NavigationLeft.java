@@ -55,9 +55,9 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/telOctoPlus_bot")));
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/telOctoPlus_bot")));
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
             }
         });
 
