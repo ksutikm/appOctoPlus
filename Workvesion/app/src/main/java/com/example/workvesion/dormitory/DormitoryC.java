@@ -1,4 +1,4 @@
-package com.example.workvesion.balls;
+package com.example.workvesion.dormitory;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -7,14 +7,16 @@ import android.os.Bundle;
 
 import com.example.workvesion.R;
 
-public class NoBallsA extends AppCompatActivity {
+public class DormitoryC extends AppCompatActivity {
+
     Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_no_balls_a);
-        toolbar = findViewById(R.id.toolbar38);setSupportActionBar(toolbar);
+        setContentView(R.layout.activity_dormitory_c);
+        toolbar = findViewById(R.id.toolbar47);
+        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }

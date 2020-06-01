@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".balls.NoBallsA"
+    tools:context=".useful.UsefulC1"
     android:background="@drawable/bub_2" >
 
     <com.google.android.material.appbar.AppBarLayout
@@ -14,11 +14,11 @@
         tools:ignore="MissingConstraints">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar38"
+            android:id="@+id/toolbar51"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Пересдача ЕГЭ"
+            app:title="Полезное"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/no_balls_text_a"
+                android:text="@string/useful_text_c_1"
                 android:autoLink="web"
                 android:linksClickable="true" />
 

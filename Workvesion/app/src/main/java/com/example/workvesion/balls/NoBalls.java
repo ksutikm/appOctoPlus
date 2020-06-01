@@ -39,10 +39,10 @@ public class NoBalls extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.tv_no_balls_a:
-                startActivity(new Intent(this, BallsA.class));
+                startActivity(new Intent(this, NoBallsA.class));
                 break;
             case R.id.tv_no_balls_b:
-                startActivity(new Intent(this, BallsB.class));
+                startActivity(new Intent(this, NoBallsB.class));
                 break;
         }
     }

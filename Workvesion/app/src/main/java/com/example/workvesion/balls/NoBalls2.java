@@ -7,14 +7,15 @@ import android.os.Bundle;
 
 import com.example.workvesion.R;
 
-public class NoBallsA extends AppCompatActivity {
+public class NoBalls2 extends AppCompatActivity {
+
     Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_no_balls_a);
-        toolbar = findViewById(R.id.toolbar38);setSupportActionBar(toolbar);
+        setContentView(R.layout.activity_no_balls_2);
+        toolbar = findViewById(R.id.toolbar41);setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
