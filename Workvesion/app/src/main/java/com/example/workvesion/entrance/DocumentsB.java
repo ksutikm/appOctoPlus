@@ -3,18 +3,25 @@ package com.example.workvesion.entrance;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.FileProvider;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.workvesion.BuildConfig;
 import com.example.workvesion.R;
 
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class DocumentsB extends AppCompatActivity {
 
@@ -38,13 +45,17 @@ public class DocumentsB extends AppCompatActivity {
                 StrictMode.setVmPolicy(builder.build());
                 builder.detectFileUriExposure();
 
-                Intent intent = new Intent();
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                intent.setAction(Intent.ACTION_VIEW);
-                String type = "application/msword";
-                intent.setDataAndType(Uri.fromFile(new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc")), type);
-                startActivity(intent);
+//                Intent intent = new Intent();
+//                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+//                intent.setAction(Intent.ACTION_VIEW);
+//                String type = "application/msword";
+////                intent.setDataAndType(Uri.fromFile(new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc")), type);
+//                intent.setDataAndType(FileProvider.getUriForFile(DocumentsB.this,
+//                        BuildConfig.APPLICATION_ID + ".provider", new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc")), type);
+//                startActivity(intent);
+//                Uri photoURI = FileProvider.getUriForFile(DocumentsB.this,
+//                        BuildConfig.APPLICATION_ID + ".provider", new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc"));
 
 //                Intent intent = new Intent(android.content.Intent.ACTION_VIEW);
 //                File file = new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc");
@@ -58,6 +69,7 @@ public class DocumentsB extends AppCompatActivity {
 //                }
 //                // custom message for the intent
 //                startActivity(Intent.createChooser(intent, "Choose an Application:"));
+                LoadPdfFile("Pamyatka");
             }
         });
     }
@@ -66,5 +78,45 @@ public class DocumentsB extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         onBackPressed();
         return true;
+    }
+
+    private static final String AUTHORITY="REPLACE_IT_WITH_PACKAGE_NAME";
+
+    static private void copy(InputStream in, File dst) throws IOException {
+        FileOutputStream out=new FileOutputStream(dst);
+        byte[] buf=new byte[1024];
+        int len;
+
+        while ((len=in.read(buf)) > 0) {
+            out.write(buf, 0, len);
+        }
+
+        in.close();
+        out.close();
+    }
+
+    private  void LoadPdfFile(String fileName){
+
+        File f = new File(getFilesDir(), fileName + ".doc");
+
+        if (!f.exists()) {
+            AssetManager assets=getAssets();
+
+            try {
+                copy(assets.open(fileName + ".doc"), f);
+            }
+            catch (IOException e) {
+                Log.e("FileProvider", "Exception copying from assets", e);
+            }
+        }
+
+        Intent i=
+                new Intent(Intent.ACTION_VIEW,
+                        FileProvider.getUriForFile(this, AUTHORITY, f));
+
+        i.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+        startActivity(i);
+        finish();
     }
 }
