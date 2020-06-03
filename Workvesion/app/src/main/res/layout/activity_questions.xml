@@ -65,11 +65,14 @@
                 android:background="@color/colorGrey"
                 android:padding="10dp"/>
 
-            <TextView
+            <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="250dp"
+                android:id="@+id/image_questions"
                 android:layout_below="@id/question_b"
-                android:text="@string/new_line"/>
+                android:layout_marginTop="20dp"
+                android:src="@drawable/adventure_time_fendomy"
+                android:contentDescription="TODO" />
 
         </RelativeLayout>
 
