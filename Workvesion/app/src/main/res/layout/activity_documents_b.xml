@@ -38,7 +38,35 @@
                 android:id="@+id/documents_text_b"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/documents_text_1_2"
+                android:text="@string/documents_text_2_1"
+                android:autoLink="web"
+                android:linksClickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/documents_text_b_2"
+                android:layout_below="@id/documents_text_b"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:layout_marginStart="5sp"
+                android:layout_marginLeft="5sp"
+                android:text="@string/documents_text_2_2"
+                android:textColor="@color/colorPrimary"
+                android:autoLink="web"
+                android:linksClickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/documents_text_b_3"
+                android:layout_below="@id/documents_text_b_2"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:layout_marginStart="5sp"
+                android:layout_marginLeft="5sp"
+                android:text="@string/documents_text_2_3"
+                android:textColor="@color/colorPrimary"
                 android:autoLink="web"
                 android:linksClickable="true" />
 

@@ -35,7 +35,7 @@ public class DocumentsB extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        TextView tv_documents_text_b = findViewById(R.id.documents_text_b);
+        TextView tv_documents_text_b = findViewById(R.id.documents_text_b_2);
         tv_documents_text_b.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
             @Override
@@ -44,32 +44,20 @@ public class DocumentsB extends AppCompatActivity {
                 StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
                 StrictMode.setVmPolicy(builder.build());
                 builder.detectFileUriExposure();
-
-//                Intent intent = new Intent();
-//                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-//                intent.setAction(Intent.ACTION_VIEW);
-//                String type = "application/msword";
-////                intent.setDataAndType(Uri.fromFile(new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc")), type);
-//                intent.setDataAndType(FileProvider.getUriForFile(DocumentsB.this,
-//                        BuildConfig.APPLICATION_ID + ".provider", new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc")), type);
-//                startActivity(intent);
-//                Uri photoURI = FileProvider.getUriForFile(DocumentsB.this,
-//                        BuildConfig.APPLICATION_ID + ".provider", new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc"));
-
-//                Intent intent = new Intent(android.content.Intent.ACTION_VIEW);
-//                File file = new File("Pamyatka_priem_na_tselevoe_obuchenie_v_ramkakh_kvoty_priema_na_tselevoe_obuchenie.doc");
-//                String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
-//                String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-//                if (extension.equalsIgnoreCase("") || mimetype == null) {
-//                    // if there is no extension or there is no definite mimetype, still try to open the file
-//                    intent.setDataAndType(Uri.fromFile(file), "text/*");
-//                } else {
-//                    intent.setDataAndType(Uri.fromFile(file), mimetype);
-//                }
-//                // custom message for the intent
-//                startActivity(Intent.createChooser(intent, "Choose an Application:"));
                 LoadPdfFile("Pamyatka");
+            }
+        });
+
+        TextView tv_documents_text_b_1 = findViewById(R.id.documents_text_b_3);
+        tv_documents_text_b_1.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
+            @Override
+            public void onClick(View v) {
+
+                StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+                StrictMode.setVmPolicy(builder.build());
+                builder.detectFileUriExposure();
+                LoadPdfFile("Forma");
             }
         });
     }

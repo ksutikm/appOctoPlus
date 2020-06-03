@@ -63,14 +63,13 @@
         <activity android:name=".money.MoneyC" />
         <activity android:name=".money.MoneyA" />
         <activity android:name=".money.MoneyB" />
-        <activity android:name=".NavigationLeft" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".NavigationLeft" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <provider
             android:name=".LegacyCompatFileProvider"
             android:authorities="REPLACE_IT_WITH_PACKAGE_NAME"

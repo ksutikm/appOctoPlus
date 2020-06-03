@@ -60,10 +60,10 @@
                 android:id="@+id/menu_end">
 
 
-                <item
-                    android:id="@+id/profile"
-                    android:icon="@drawable/ic_menu_person"
-                    android:title="Аккаунт" />
+<!--                <item-->
+<!--                    android:id="@+id/profile"-->
+<!--                    android:icon="@drawable/ic_menu_person"-->
+<!--                    android:title="Аккаунт" />-->
 
                 <item
                     android:id="@+id/contact"

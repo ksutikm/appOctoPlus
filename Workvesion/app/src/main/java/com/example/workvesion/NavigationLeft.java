@@ -100,10 +100,10 @@ public class NavigationLeft extends AppCompatActivity implements NavigationView.
         fragmentTransaction = fragmentManager.beginTransaction();
 
         switch (item.getItemId()) {
-            case R.id.profile:
-                FragmentAccount fragmentAccount = new FragmentAccount();
-                fragmentTransaction.replace(R.id.container, fragmentAccount);
-                break;
+//            case R.id.profile:
+//                FragmentAccount fragmentAccount = new FragmentAccount();
+//                fragmentTransaction.replace(R.id.container, fragmentAccount);
+//                break;
             case R.id.contact:
                 fragmentTransaction.replace(R.id.container, fragmentOctopus);
                 break;
