@@ -40,9 +40,7 @@
                 android:id="@+id/money_text_f"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/money_text_f"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/money_text_f" />
 
         </RelativeLayout>
 

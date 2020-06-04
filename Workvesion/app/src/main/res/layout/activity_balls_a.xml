@@ -38,9 +38,7 @@
                 android:id="@+id/tv_balls_a_0"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/balls_text_a"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/balls_text_a" />
 
             <ImageView
                 android:layout_width="match_parent"

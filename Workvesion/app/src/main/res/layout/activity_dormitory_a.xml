@@ -38,50 +38,25 @@
                 android:id="@+id/tv_dormitory_a_0"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/dormitory_text_a"
-                android:autoLink="web"
-                android:linksClickable="true" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_dormitory_a_1"
-                android:layout_below="@id/tv_dormitory_a_0"
-                android:lineSpacingExtra="5sp"
-                android:padding="5dp"
-                android:layout_marginStart="5sp"
-                android:layout_marginLeft="5sp"
-                android:text="@string/dormitory_text_a_2"
-                android:textColor="@color/colorPrimary"
-                android:autoLink="web"
-                android:linksClickable="true" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_dormitory_a_2"
-                android:layout_below="@id/tv_dormitory_a_1"
-                android:lineSpacingExtra="5sp"
-                android:padding="5dp"
-                android:layout_marginStart="5sp"
-                android:layout_marginLeft="5sp"
-                android:text="@string/dormitory_text_a_3"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/dormitory_text_a" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_dormitory_a_3"
-                android:layout_below="@id/tv_dormitory_a_2"
+                android:layout_below="@id/tv_dormitory_a_0"
                 android:lineSpacingExtra="5sp"
                 android:padding="5dp"
                 android:layout_marginStart="5sp"
                 android:layout_marginLeft="5sp"
                 android:text="@string/dormitory_d"
-                android:textColor="@color/colorPrimary"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_dormitory_a_3"
+                android:text="@string/new_line" />
 
         </RelativeLayout>
 

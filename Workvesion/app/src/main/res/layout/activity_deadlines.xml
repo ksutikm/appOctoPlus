@@ -38,9 +38,7 @@
                 android:id="@+id/deadlines_text"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/deadlines_text"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/deadlines_text" />
 
         </RelativeLayout>
 

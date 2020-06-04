@@ -70,6 +70,12 @@
                 android:autoLink="web"
                 android:linksClickable="true" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/documents_text_b_3"
+                android:text="@string/new_line" />
+
         </RelativeLayout>
 
     </ScrollView>

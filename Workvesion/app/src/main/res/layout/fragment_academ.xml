@@ -15,9 +15,7 @@
             android:id="@+id/text_academ"
             android:lineSpacingExtra="5sp"
             android:padding="10dp"
-            android:text="@string/text_academ"
-            android:autoLink="web"
-            android:linksClickable="true" />
+            android:text="@string/text_academ" />
 
 
     </ScrollView>

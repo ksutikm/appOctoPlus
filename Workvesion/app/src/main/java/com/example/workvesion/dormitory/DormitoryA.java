@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -35,13 +36,10 @@ public class DormitoryA extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        TextView tv_dormitory_text_a_1 = findViewById(R.id.tv_dormitory_a_1);
-        tv_dormitory_text_a_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uniyar.ac.ru/upload/outdoor/%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D0%BD%D0%B0%D0%B9%D0%BC%D0%B0%20%D0%B6%D0%B8%D0%BB%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B8.pdf")));
-            }
-        });
+        TextView tv_dormitory_text_a_1 = findViewById(R.id.tv_dormitory_a_0 );
+        tv_dormitory_text_a_1.setLinksClickable(true);
+        tv_dormitory_text_a_1.setMovementMethod(LinkMovementMethod.getInstance());
+
         TextView tv_dormitory_d = findViewById(R.id.tv_dormitory_a_3);
         tv_dormitory_d.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 
 import com.example.workvesion.R;
 
@@ -19,6 +21,10 @@ public class UsefulB extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        TextView tv_useful_b = findViewById(R.id.tv_useful_text_b);
+        tv_useful_b.setLinksClickable(true);
+        tv_useful_b.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     @Override

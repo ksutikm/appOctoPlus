@@ -40,9 +40,7 @@
                 android:id="@+id/text_mat_help"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/text_mat_help"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/text_mat_help" />
 
         </RelativeLayout>
 

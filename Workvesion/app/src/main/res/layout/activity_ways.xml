@@ -38,9 +38,7 @@
                 android:id="@+id/ways_text"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/ways_text"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/ways_text" />
 
         </RelativeLayout>
 

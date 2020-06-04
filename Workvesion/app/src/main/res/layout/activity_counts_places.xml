@@ -38,23 +38,7 @@
                 android:id="@+id/tv_count_places_0"
                 android:lineSpacingExtra="5sp"
                 android:padding="10dp"
-                android:text="@string/counts_places_text"
-                android:autoLink="web"
-                android:linksClickable="true" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_count_places_1"
-                android:layout_below="@id/tv_count_places_0"
-                android:lineSpacingExtra="5sp"
-                android:padding="5dp"
-                android:layout_marginStart="5sp"
-                android:layout_marginLeft="5sp"
-                android:text="@string/counts_places_text_1"
-                android:textColor="@color/colorPrimary"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/counts_places_text" />
 
         </RelativeLayout>
 
