@@ -14,11 +14,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/text_progress"
             android:lineSpacingExtra="5sp"
-            android:padding="10dp"
             android:text="@string/text_progress"
-            android:autoLink="web"
-            android:linksClickable="true" />
-
+            android:padding="10dp" />
 
     </ScrollView>
 
