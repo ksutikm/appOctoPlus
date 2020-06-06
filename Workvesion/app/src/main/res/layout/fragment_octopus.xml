@@ -19,6 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/cloud"
+            android:id="@+id/octopus"
             android:src="@drawable/ex"
             android:contentDescription="TODO" />
 

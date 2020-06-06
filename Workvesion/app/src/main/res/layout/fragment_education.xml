@@ -114,10 +114,18 @@
                 android:background="@color/colorGrey"
                 android:padding="10dp"/>
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:id="@+id/gendalf"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/organization_of_practice"
+                android:src="@drawable/gendalf" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tuition_fees"
+                android:layout_below="@id/gendalf"
                 android:text="@string/new_line" />
 
         </RelativeLayout>
