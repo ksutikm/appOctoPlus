@@ -774,7 +774,30 @@
         <b><i>Открытая олимпиада ЯрГУ по математике (для школьников 10-11 классов)</i></b>\n\n
         Олимпиада проводится Математическим факультетом в один тур. Победители олимпиады претендуют на получение 10 дополнительных баллов при поступлении на Математический факультет, призеры – 8 дополнительных баллов. Для участия необходимо заполнить регистрационную <b><a href="https://math.uniyar.ac.ru/registr_olimp">форму</a></b>.\n\n
         Подробнее об олимпиаде: - <b><a href="https://math.uniyar.ac.ru/olimpiada">сайт Математического факультета.</a></b>\n\n</string>
-    <string name="useful_text_d">useful_text_d</string>
+
+    <string name="useful_text_d"> <b>Полезные ссылки</b>\n\n
+        <b>- <a href="https://www.uniyar.ac.ru/">Официальный сайт ЯрГУ</a></b>\n\n
+        <b>- <a href="https://vk.com/yaroslavl_state_university">Группа Яргу в Vk</a></b>\n\n
+        <b>- <a href="https://vk.com/studclub_yargu">ЯрГУ СтудКлуб (новостной портал ЯрГУ в вк)</a></b>\n\n
+        <b>- <a href="https://vk.com/profkomyar">Профсоюзная организация обучающихся ЯрГУ</a></b>\n\n
+        <b>- <a href="https://vk.com/uniyar_abitur">Приемная комиссия ЯрГУ</a></b>\n\n
+        <b>- <a href="https://vk.com/obshagayargu">Студсовет общежития</a></b>\n\n
+        <b>- <a href="https://vk.com/demidpoint76">Точка кипения ЯрГУ</a></b>\n\n
+        <b>- <a href="https://vk.com/overhear_yargu">Подслушано в ЯрГУ</a></b>\n\n
+        <b>- <a href="https://vk.com/pt_smi">Медиацентр ЯрГУ “Prime Time”</a></b>\n\n
+        <b>- <a href="https://vk.com/yargutv">Центр Университетского Телевидения</a></b>\n\n
+        <b>- <a href="https://vk.com/yarmp">Управление по молодежной политике г.Ярославля</a></b>\n\n\n
+        <b><i>Профбюро:</i></b>\n\n
+        <b>· <a href="https://vk.com/ec_fac">Экономического факультета</a></b>\n\n
+        <b>· <a href="https://vk.com/istfakyargu">Исторического факультета</a></b>\n\n
+        <b>· <a href="https://vk.com/pbjur">Юридического факультета</a></b>\n\n
+        <b>· <a href="https://vk.com/profstudffk">Факультета филологии и коммуникаций</a></b>\n\n
+        <b>· <a href="https://vk.com/mfprofburo">Математического факультета</a></b>\n\n
+        <b>· <a href="https://vk.com/profburoivt">Факультета информатики и вычислительной техники</a></b>\n\n
+        <b>· <a href="https://vk.com/profburofizfak">Физического факультета</a></b>\n\n
+        <b>· <a href="https://vk.com/psiprofclub">Факультета психологии</a></b>\n\n
+        <b>· <a href="https://vk.com/bioyargu">Факультета биологии и экологии</a></b>\n\n
+        <b>· <a href="https://vk.com/club999363">Университетский колледж ЯрГУ им П.Г.Демидова</a></b>\n\n\n\n</string>
 
     <string name="useful_c"><b>Подготовка к ЕГЭ</b></string>
     <string name="useful_c_1"><b>Воскресные лектории</b></string>

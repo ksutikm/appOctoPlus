@@ -45,11 +45,19 @@
                 android:background="@color/colorGrey"
                 android:padding="10dp"/>
 
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/dr_haus"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/tv_no_balls"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/dr_haus" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tv_no_balls"
-                android:text="@string/new_line"/>
+                android:layout_below="@id/dr_haus"
+                android:text="@string/new_line" />
 
         </RelativeLayout>
 

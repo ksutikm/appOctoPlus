@@ -36,10 +36,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="5sp"
+                android:id="@+id/tv_useful_d_text"
                 android:padding="10dp"
-                android:text="@string/useful_text_d"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:text="@string/useful_text_d" />
 
         </RelativeLayout>
 

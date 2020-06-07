@@ -65,14 +65,19 @@
                 android:background="@color/colorGrey"
                 android:padding="10dp"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/balls"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:id="@+id/image_att"
                 android:layout_below="@id/attestation_b"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/att"
-                android:contentDescription="TODO" />
+                android:layout_marginTop="25dp"
+                android:src="@drawable/balls" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/balls"
+                android:text="@string/new_line" />
 
         </RelativeLayout>
 
